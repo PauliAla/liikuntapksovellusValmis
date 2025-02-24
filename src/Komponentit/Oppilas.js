@@ -172,7 +172,7 @@ useEffect(() => {
 
   // Haetaan kaikki oppilaan harjoitukset tietokannasta /Kai Ronkainen
   useEffect(() => {
-      axios.get('http://localhost/harjoituksia/liikuntapksovellus/liikuntapksovellus/php/oppilas2.php/'+OppilasID).then(function(response) {
+      axios.get('http://localhost/harjoituksia/liikuntapksovellus/liikuntapksovellus/php/oppilas.php/'+OppilasID).then(function(response) {
         //console.log(response.data);
         setHarjoitus(response.data);
       });
