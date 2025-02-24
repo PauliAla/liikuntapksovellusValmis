@@ -9,7 +9,6 @@ import Oppilas from "./Komponentit/Oppilas";
 import LisaaOpp from "./Komponentit/LisaaOpp";
 import Harjoitus from "./Komponentit/Harjoitus";
 import Tervetuloa_oppilas from "./Komponentit/Tervetuloa_oppilas";
-import Navigoi2 from "./Komponentit/Navigoi2";
 import Ulos from "./Komponentit/Ulos";
 import Kirjaudu_oppilas from "./Komponentit/Kirjaudu_oppilas";
 import './App.css';
@@ -37,7 +36,6 @@ function App() {
         <Route path="/SalasanaTilaus" element={<SalasanaTilaus/>} />
         <Route path="/Tervetuloa_opettaja" element={<Suojaus Component={Tervetuloa_opettaja}/>} />
         <Route path="/Tervetuloa_oppilas" element={<Suojaus Component={Tervetuloa_oppilas}/>} />
-        <Route path="/Navigoi2" element={<Suojaus Component={Navigoi2}/>} />
         <Route path="/Etusivu" element={<Suojaus Component={Etusivu} />} />
         <Route path="/unauthorized" element={<Unauthorized/>} />
         <Route path="/Oppilas/:OppilasID" element={<Suojaus Component={Oppilas}/>} />
